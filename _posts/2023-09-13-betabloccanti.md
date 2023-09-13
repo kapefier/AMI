@@ -2,7 +2,7 @@
 layout: post
 title: Beta-bloccanti nel paziente critico
 subtitle: indicazioni tratte da Linee Guida SIAARTI di Buona Pratica Clinica (v.1 – 30.03.23)
-gh-repo: kapefier/beautiful-jekyll
+gh-repo: kapefier/AMI
 gh-badge: [star, fork, follow]
 tags: [cardiovascolare, betabloccanti, tachicardia, sepsi]
 comments: true
