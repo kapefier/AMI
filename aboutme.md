@@ -10,4 +10,4 @@ Non sempre un journal club è una soluzione a tutte le necessità, e  questo è 
 
 ##### Il primo post.
 
-![13-09-2023]({{ '/_posts/2023-09-13-betabloccanti/' | relative_url }})
+[13-09-2023]({{ '/_posts/2023-09-13-betabloccanti/' | relative_url }})
