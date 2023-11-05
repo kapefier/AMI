@@ -4,7 +4,7 @@ title: Effect Size Correction
 subtitle: Correggere la dimensione dell'effetto in una meta-analisi.
 gh-repo: kapefier/AMI
 gh-badge: [star, fork, follow]
-tags: [R, Effect Size, Meta-Analisys]
+tags: [R, Effect Size, Meta-Analysis]
 comments: true
 ---
 
