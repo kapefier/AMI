@@ -351,15 +351,13 @@ display: none;
 
 <h1 class="title toc-ignore">Effect Size Correction</h1>
 <h3 class="subtitle">Prevenire la distorsione della dimensione d’effetto
-| basato su ‘Doing Meta-Analysis in R’ by M. Harrer</h3>
+| ispirato a ‘Doing Meta-Analysis in R’ di M. Harrer</h3>
 <h4 class="author">Orlando Sagliocco</h4>
 <h4 class="date">05.11.2023</h4>
 
 </div>
 
 
-<div id="effect-size-correction" class="section level2">
-<h2>Effect Size Correction</h2>
 <p>Come già detto, l’effect size <strong>stimato</strong> <span class="math inline">\(\hat\theta_k\)</span> devia dall’effect size
 <strong>reale</strong> <span class="math inline">\(\hat\theta\)</span>
 di una misura pari all’errore di campionamento <span class="math inline">\(\epsilon_k\)</span>. Ma non solo.</p>
@@ -547,22 +545,19 @@ Tuttavia, vediamo che anche gli errori standard aumentano. Questo
 risultato è voluto; correggiamo l’errore standard in modo che incorpori
 anche l’errore di misurazione che assumiamo per i nostri dati.</p>
 <p>In alcuni campi, ad esempio nella psicologia organizzativa, è comune
-applicare correzioni di attenuazione. Tuttavia, in altre discipline,
-compreso il campo biomedico, questa procedura viene utilizzata
-raramente. Nelle meta-analisi, possiamo eseguire una correzione per
-l’inaffidabilità solo se il coefficiente di affidabilità rxx</p>
-<p>(e ryy</p>
-<p>) è riportato in ogni studio.</p>
-<p>Molto spesso non è così. In questo scenario, possiamo assumere un
-valore per l’affidabilità dello strumento basato su ricerche precedenti.
-Tuttavia, dato che la correzione ha un grande impatto sul valore
-dell’effect size, si assume una stima inappropriata di rxx</p>
-<p>possono distorcere notevolmente i risultati. Inoltre, non è possibile
-correggere solo alcune dimensioni degli effetti nella nostra
-meta-analisi, lasciandone altre non corrette. Per questi motivi,
-purtroppo, l’applicabilità della correzione dell’affidabilità è spesso
-limitata nella pratica.</p>
-</div>
+applicare correzioni di attenuazione. Tuttavia, in altre discipline, tra
+cui il campo biomedico, questa procedura viene utilizzata raramente.
+Nelle meta-analisi, possiamo eseguire una correzione per
+l’inaffidabilità solo se il coefficiente di affidabilità <span class="math inline">\(r_{xx}\)</span> (e <span class="math inline">\(r_{yy}\)</span> ) è riportato in ogni studio.</p>
+<p>Molto spesso non è così. In questi casi, possiamo ipotizzare un
+valore di affidabilità basandoci su ricerche precedenti. Tuttavia, dato
+che la correzione ha un grande impatto sul valore dell’effect size,
+qualora si assumesse una stima inappropriata di <span class="math inline">\(r_{xx}\)</span> si otterebbe una notevole
+distorsione dei risultati. Inoltre, non è possibile correggere solo
+alcune dimensioni degli effetti nella nostra meta-analisi, lasciandone
+altre non corrette. Per questi motivi, purtroppo, <u>l’applicabilità
+della correzione dell’affidabilità è spesso limitata nella
+pratica</u>.</p>
 </div>
 
 
