@@ -18,6 +18,6 @@ Invece, anche per $\epsilon_k$ tendente a 0, la stima della dimensione dell'effe
 
 Qui di seguito esploriamo le tecniche di correzione dell'effect size.
 
-<iframe src=({{ '/effectsizecor.html' \| relative_url }}) width="100%" height="400"></iframe>
+<iframe src="{{ '/effectsizecor.html' \| relative_url }}" width="100%" height="400"></iframe>
 
 
